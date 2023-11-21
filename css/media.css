@@ -1,0 +1,352 @@
+@media (max-width: 1300px) {
+
+    .container {
+        max-width: 924px;
+        padding: 0 50px
+    }
+
+    .header__container {
+        flex-direction: column;
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+
+
+
+    .head__logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .head__list {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .head__btn__mod {
+        display: block;
+    }
+
+    .head__item__btn {
+        display: none;
+    }
+
+
+    .catalog__items {
+        margin-right: 0;
+        margin-bottom: 0;
+        max-width: 924px;
+    }
+
+    .catalog__img {
+        width: 925px;
+    }
+
+    .galery__content {
+        flex-direction: column;
+    }
+
+    .galery__title {
+        padding-bottom: 16px;
+    }
+
+    .galery__img {
+        margin-top: 0;
+        max-width: 275px;
+    }
+
+    .galery__image {
+        padding-top: 30px;
+    }
+
+    .galery__right {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .catalog__grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .catalog__items__1 {
+        min-height: 580px;
+        margin-right: 0;
+    }
+
+
+    .catalog__items__2 {
+        min-height: 580px;
+        margin-right: 0;
+    }
+
+
+    .catalog__items__3 {
+        min-height: 580px;
+        margin-right: 0;
+    }
+
+    .catalog__items__left {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .event__item {
+        max-width: 290px;
+        margin-right: 27px;
+    }
+
+    .event__item__mod {
+        padding: 13px 34px 48px 34px;
+    }
+
+    .footer__mod {
+        flex-direction: column;
+    }
+
+    .event__items {
+        margin-bottom: 80px;
+
+    }
+
+
+    .footer__contacts {
+        flex-direction: column;
+    }
+
+    .footer__input {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .projects__partners {
+        padding-bottom: 80px;
+    }
+
+    .call__btn {
+        width: 298px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+
+    .container {
+        max-width: 668px;
+        padding: 0 50px;
+    }
+
+    .event__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .event__item {
+        max-width: 668px;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    input {
+        margin-bottom: 12px;
+    }
+
+    .footer__mod {
+        border-top: none;
+    }
+
+    .projects__partners {
+        padding-bottom: 0px;
+    }
+
+    .galery__right {
+        padding-left: 0;
+    }
+
+   
+
+
+
+}
+
+@media (max-width: 580px) {
+
+
+    .container {
+        max-width: 290px;
+        padding: 0 15px;
+    }
+
+    .header__container {
+
+        padding-top: 16px;
+        padding-bottom: 12px;
+    }
+
+
+    .title {
+        font-family: Open Sans, sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
+    .descr {
+        font-family: Open Sans, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .item__title {
+        font-family: Open Sans, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
+    .touch__btn {
+        max-width: 200px;
+        font-size: 12px;
+        padding: 5px 14px 5px 14px;
+        max-height: 40px;
+    }
+
+    .touch__mod {
+        min-height: 0;
+    }
+
+    .touch__title {
+        font-family: Open Sans, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .touch__descr {
+        font-family: Open Sans, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .touch__content__mod {
+        padding: 50px 0;
+        align-items: center;
+    }
+
+    .galery__right {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .galery__image {
+        padding-top: 50px;
+        padding-right: 0;
+    }
+
+
+    .event__items {
+        margin-bottom: 50px;
+    }
+
+    .about__mod {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .projects__partners {
+        flex-direction: column;
+    }
+
+    .projects__partners__right {
+        padding-right: 0;
+        padding-bottom: 12px;
+    }
+
+    .footer__mod {
+        border-top: none;
+    }
+
+
+    .footer__logos {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer__bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__logo {
+        padding-top: 20px;
+    }
+
+
+    .form {
+        flex-direction: column;
+    }
+
+    .call__btn {
+        display: none;
+    }
+
+    .call__btn__size {
+        display: block;
+        width: 128px;
+        height: 40px;
+        color: rgba(157, 92, 208, 1);
+        font-family: Open Sans, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16.34px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-left: 0;
+        background-color: transparent;
+        border-radius: 100px;
+        border: 2px solid rgba(157, 92, 208, 1);
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+    input {
+        font-family: Open Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        border: 1px solid rgba(51, 51, 51, 1);
+        border-radius: 100px;
+        color: rgba(51, 51, 51, 1);
+        outline: none;
+        padding-left: 24px;
+        margin-right: 20px;
+        width: 262px;
+        height: 40px;
+        transition: 0.2s ease-in-out;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+}
